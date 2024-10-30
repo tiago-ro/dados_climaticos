@@ -1,0 +1,442 @@
+[2024-10-27 09:53:56,397] {processor.py:153} INFO - Started process (PID=44923) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:53:56,397] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:53:56,397] {logging_mixin.py:115} INFO - [2024-10-27 09:53:56,397] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:53:56,404] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:53:56,405] {logging_mixin.py:115} INFO - [2024-10-27 09:53:56,404] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:53:56,405] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:53:56,422] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 09:54:28,763] {processor.py:153} INFO - Started process (PID=45189) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:28,768] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:54:28,769] {logging_mixin.py:115} INFO - [2024-10-27 09:54:28,769] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:28,772] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:54:28,773] {logging_mixin.py:115} INFO - [2024-10-27 09:54:28,772] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:54:28,773] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:28,788] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 09:54:59,013] {processor.py:153} INFO - Started process (PID=45434) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:59,018] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:54:59,019] {logging_mixin.py:115} INFO - [2024-10-27 09:54:59,018] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:59,022] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:54:59,023] {logging_mixin.py:115} INFO - [2024-10-27 09:54:59,022] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:54:59,023] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:54:59,039] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 09:55:30,261] {processor.py:153} INFO - Started process (PID=45683) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:55:30,268] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:55:30,269] {logging_mixin.py:115} INFO - [2024-10-27 09:55:30,268] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:55:30,272] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:55:30,273] {logging_mixin.py:115} INFO - [2024-10-27 09:55:30,272] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:55:30,273] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:55:30,287] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.028 seconds
+[2024-10-27 09:56:01,551] {processor.py:153} INFO - Started process (PID=45937) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:01,558] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:56:01,559] {logging_mixin.py:115} INFO - [2024-10-27 09:56:01,559] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:01,563] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:56:01,564] {logging_mixin.py:115} INFO - [2024-10-27 09:56:01,563] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:56:01,564] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:01,579] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.029 seconds
+[2024-10-27 09:56:35,506] {processor.py:153} INFO - Started process (PID=46203) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:35,512] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:56:35,512] {logging_mixin.py:115} INFO - [2024-10-27 09:56:35,512] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:35,516] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:56:35,516] {logging_mixin.py:115} INFO - [2024-10-27 09:56:35,516] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:56:35,517] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:56:35,531] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.026 seconds
+[2024-10-27 09:57:09,488] {processor.py:153} INFO - Started process (PID=46475) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:57:09,493] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:57:09,493] {logging_mixin.py:115} INFO - [2024-10-27 09:57:09,493] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:57:09,497] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:57:09,498] {logging_mixin.py:115} INFO - [2024-10-27 09:57:09,497] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:57:09,498] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:57:09,513] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 09:58:03,224] {processor.py:153} INFO - Started process (PID=46888) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:03,225] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:58:03,226] {logging_mixin.py:115} INFO - [2024-10-27 09:58:03,226] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:03,230] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:58:03,231] {logging_mixin.py:115} INFO - [2024-10-27 09:58:03,230] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:58:03,232] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:03,248] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.026 seconds
+[2024-10-27 09:58:35,564] {processor.py:153} INFO - Started process (PID=47152) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:35,566] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:58:35,566] {logging_mixin.py:115} INFO - [2024-10-27 09:58:35,566] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:35,570] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:58:35,570] {logging_mixin.py:115} INFO - [2024-10-27 09:58:35,570] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:58:35,570] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:58:35,587] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.025 seconds
+[2024-10-27 09:59:39,371] {processor.py:153} INFO - Started process (PID=47648) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:59:39,373] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 09:59:39,373] {logging_mixin.py:115} INFO - [2024-10-27 09:59:39,373] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:59:39,377] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 09:59:39,378] {logging_mixin.py:115} INFO - [2024-10-27 09:59:39,377] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 09:59:39,378] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 09:59:39,396] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.026 seconds
+[2024-10-27 10:00:11,740] {processor.py:153} INFO - Started process (PID=47911) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:11,746] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:00:11,746] {logging_mixin.py:115} INFO - [2024-10-27 10:00:11,746] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:11,750] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:00:11,751] {logging_mixin.py:115} INFO - [2024-10-27 10:00:11,750] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:00:11,751] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:11,765] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.026 seconds
+[2024-10-27 10:00:47,150] {processor.py:153} INFO - Started process (PID=48193) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:47,158] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:00:47,158] {logging_mixin.py:115} INFO - [2024-10-27 10:00:47,158] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:47,161] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:00:47,162] {logging_mixin.py:115} INFO - [2024-10-27 10:00:47,161] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:00:47,162] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:00:47,177] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.029 seconds
+[2024-10-27 10:01:07,970] {processor.py:153} INFO - Started process (PID=48372) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:07,971] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:01:07,972] {logging_mixin.py:115} INFO - [2024-10-27 10:01:07,972] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:07,978] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:01:07,979] {logging_mixin.py:115} INFO - [2024-10-27 10:01:07,978] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:01:07,979] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:07,997] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.029 seconds
+[2024-10-27 10:01:41,535] {processor.py:153} INFO - Started process (PID=48644) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:41,537] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:01:41,537] {logging_mixin.py:115} INFO - [2024-10-27 10:01:41,537] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:41,541] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:01:41,542] {logging_mixin.py:115} INFO - [2024-10-27 10:01:41,541] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:01:41,543] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:01:41,559] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.025 seconds
+[2024-10-27 10:02:13,472] {processor.py:153} INFO - Started process (PID=48899) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:13,472] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:02:13,473] {logging_mixin.py:115} INFO - [2024-10-27 10:02:13,472] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:13,476] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:02:13,477] {logging_mixin.py:115} INFO - [2024-10-27 10:02:13,476] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:02:13,477] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:13,493] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.022 seconds
+[2024-10-27 10:02:47,484] {processor.py:153} INFO - Started process (PID=49168) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:47,488] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:02:47,488] {logging_mixin.py:115} INFO - [2024-10-27 10:02:47,488] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:47,492] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:02:47,492] {logging_mixin.py:115} INFO - [2024-10-27 10:02:47,492] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:02:47,493] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:02:47,507] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.025 seconds
+[2024-10-27 10:03:20,634] {processor.py:153} INFO - Started process (PID=49428) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:20,639] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:03:20,640] {logging_mixin.py:115} INFO - [2024-10-27 10:03:20,639] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:20,643] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:03:20,644] {logging_mixin.py:115} INFO - [2024-10-27 10:03:20,643] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:03:20,644] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:20,660] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 10:03:55,438] {processor.py:153} INFO - Started process (PID=49706) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:55,443] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:03:55,444] {logging_mixin.py:115} INFO - [2024-10-27 10:03:55,444] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:55,447] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:03:55,448] {logging_mixin.py:115} INFO - [2024-10-27 10:03:55,447] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:03:55,448] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:03:55,465] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.029 seconds
+[2024-10-27 10:04:30,840] {processor.py:153} INFO - Started process (PID=49995) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:04:30,843] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:04:30,843] {logging_mixin.py:115} INFO - [2024-10-27 10:04:30,843] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:04:30,847] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:04:30,848] {logging_mixin.py:115} INFO - [2024-10-27 10:04:30,847] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 10, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:04:30,848] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:04:30,863] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.026 seconds
+[2024-10-27 10:05:03,984] {processor.py:153} INFO - Started process (PID=50264) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:03,984] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:05:03,984] {logging_mixin.py:115} INFO - [2024-10-27 10:05:03,984] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:03,988] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:05:03,989] {logging_mixin.py:115} INFO - [2024-10-27 10:05:03,988] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:05:03,989] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:04,004] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.021 seconds
+[2024-10-27 10:05:34,824] {processor.py:153} INFO - Started process (PID=50512) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:34,829] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:05:34,829] {logging_mixin.py:115} INFO - [2024-10-27 10:05:34,829] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:34,833] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:05:34,834] {logging_mixin.py:115} INFO - [2024-10-27 10:05:34,833] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:05:34,834] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:05:34,850] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 10:06:05,812] {processor.py:153} INFO - Started process (PID=50765) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:05,812] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:06:05,813] {logging_mixin.py:115} INFO - [2024-10-27 10:06:05,813] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:05,816] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:06:05,817] {logging_mixin.py:115} INFO - [2024-10-27 10:06:05,816] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:06:05,817] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:05,833] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.022 seconds
+[2024-10-27 10:06:40,650] {processor.py:153} INFO - Started process (PID=51041) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:40,651] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:06:40,651] {logging_mixin.py:115} INFO - [2024-10-27 10:06:40,651] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:40,655] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:06:40,655] {logging_mixin.py:115} INFO - [2024-10-27 10:06:40,655] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:06:40,655] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:06:40,670] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.022 seconds
+[2024-10-27 10:07:14,277] {processor.py:153} INFO - Started process (PID=51312) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:14,284] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:07:14,285] {logging_mixin.py:115} INFO - [2024-10-27 10:07:14,285] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:14,288] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:07:14,289] {logging_mixin.py:115} INFO - [2024-10-27 10:07:14,289] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:07:14,289] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:14,306] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.030 seconds
+[2024-10-27 10:07:48,918] {processor.py:153} INFO - Started process (PID=51590) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:48,923] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:07:48,923] {logging_mixin.py:115} INFO - [2024-10-27 10:07:48,923] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:48,927] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:07:48,928] {logging_mixin.py:115} INFO - [2024-10-27 10:07:48,927] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:07:48,928] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:07:48,943] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.027 seconds
+[2024-10-27 10:08:19,202] {processor.py:153} INFO - Started process (PID=51823) to work on /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:08:19,210] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/atividade_aula_4.py for tasks to queue
+[2024-10-27 10:08:19,210] {logging_mixin.py:115} INFO - [2024-10-27 10:08:19,210] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:08:19,214] {logging_mixin.py:115} INFO - Hello, world!
+[2024-10-27 10:08:19,214] {logging_mixin.py:115} INFO - [2024-10-27 10:08:19,214] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/atividade_aula_4.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/atividade_aula_4.py", line 11, in <module>
+    atividade_1 = PythonOperator(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 348, in apply_defaults
+    raise AirflowException("Use keyword arguments when initializing operators")
+airflow.exceptions.AirflowException: Use keyword arguments when initializing operators
+[2024-10-27 10:08:19,215] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/atividade_aula_4.py
+[2024-10-27 10:08:19,229] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/atividade_aula_4.py took 0.029 seconds

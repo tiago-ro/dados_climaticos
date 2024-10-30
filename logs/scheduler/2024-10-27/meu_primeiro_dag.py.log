@@ -1,0 +1,582 @@
+[2024-10-27 09:53:57,542] {processor.py:153} INFO - Started process (PID=44940) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:53:57,542] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:53:57,543] {logging_mixin.py:115} INFO - [2024-10-27 09:53:57,543] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:53:57,550] {logging_mixin.py:115} INFO - [2024-10-27 09:53:57,548] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:53:57,550] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:53:57,566] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.025 seconds
+[2024-10-27 09:54:29,891] {processor.py:153} INFO - Started process (PID=45200) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:54:29,896] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:54:29,896] {logging_mixin.py:115} INFO - [2024-10-27 09:54:29,896] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:54:29,898] {logging_mixin.py:115} INFO - [2024-10-27 09:54:29,898] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:54:29,899] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:54:29,913] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.024 seconds
+[2024-10-27 09:55:05,278] {processor.py:153} INFO - Started process (PID=45485) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:05,279] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:55:05,279] {logging_mixin.py:115} INFO - [2024-10-27 09:55:05,279] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:05,282] {logging_mixin.py:115} INFO - [2024-10-27 09:55:05,281] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:55:05,282] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:05,297] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.021 seconds
+[2024-10-27 09:55:35,877] {processor.py:153} INFO - Started process (PID=45729) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:35,880] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:55:35,880] {logging_mixin.py:115} INFO - [2024-10-27 09:55:35,880] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:35,883] {logging_mixin.py:115} INFO - [2024-10-27 09:55:35,882] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:55:35,883] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:55:35,899] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.022 seconds
+[2024-10-27 09:56:09,559] {processor.py:153} INFO - Started process (PID=45995) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:09,564] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:56:09,565] {logging_mixin.py:115} INFO - [2024-10-27 09:56:09,565] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:09,568] {logging_mixin.py:115} INFO - [2024-10-27 09:56:09,567] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:56:09,568] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:09,583] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.026 seconds
+[2024-10-27 09:56:39,755] {processor.py:153} INFO - Started process (PID=46236) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:39,757] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:56:39,757] {logging_mixin.py:115} INFO - [2024-10-27 09:56:39,757] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:39,760] {logging_mixin.py:115} INFO - [2024-10-27 09:56:39,759] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/utils/helpers.py", line 63, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'meu primeiro dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2024-10-27 09:56:39,760] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:56:39,776] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.023 seconds
+[2024-10-27 09:57:14,912] {processor.py:153} INFO - Started process (PID=46525) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:57:14,916] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:57:14,916] {logging_mixin.py:115} INFO - [2024-10-27 09:57:14,916] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:57:14,920] {logging_mixin.py:115} INFO - [2024-10-27 09:57:14,919] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 09:57:14,920] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:57:14,934] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.024 seconds
+[2024-10-27 09:58:02,077] {processor.py:153} INFO - Started process (PID=46879) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:02,078] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:58:02,079] {logging_mixin.py:115} INFO - [2024-10-27 09:58:02,079] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:02,082] {logging_mixin.py:115} INFO - [2024-10-27 09:58:02,082] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 09:58:02,082] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:02,097] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.021 seconds
+[2024-10-27 09:58:34,436] {processor.py:153} INFO - Started process (PID=47141) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:34,443] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:58:34,443] {logging_mixin.py:115} INFO - [2024-10-27 09:58:34,443] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:34,447] {logging_mixin.py:115} INFO - [2024-10-27 09:58:34,446] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 09:58:34,447] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:58:34,462] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.027 seconds
+[2024-10-27 09:59:04,664] {processor.py:153} INFO - Started process (PID=47381) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:04,665] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:59:04,666] {logging_mixin.py:115} INFO - [2024-10-27 09:59:04,666] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:04,669] {logging_mixin.py:115} INFO - [2024-10-27 09:59:04,668] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+TypeError: __init__() got an unexpected keyword argument 'task_id'
+[2024-10-27 09:59:04,669] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:04,684] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.021 seconds
+[2024-10-27 09:59:38,228] {processor.py:153} INFO - Started process (PID=47637) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:38,229] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 09:59:38,230] {logging_mixin.py:115} INFO - [2024-10-27 09:59:38,230] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:38,232] {logging_mixin.py:115} INFO - [2024-10-27 09:59:38,232] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+TypeError: __init__() got an unexpected keyword argument 'task_id'
+[2024-10-27 09:59:38,232] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 09:59:38,248] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.022 seconds
+[2024-10-27 10:00:10,610] {processor.py:153} INFO - Started process (PID=47900) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:10,612] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:00:10,612] {logging_mixin.py:115} INFO - [2024-10-27 10:00:10,612] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:10,614] {logging_mixin.py:115} INFO - [2024-10-27 10:00:10,614] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 6, in <module>
+    with DAG(
+TypeError: __init__() got an unexpected keyword argument 'task_id'
+[2024-10-27 10:00:10,614] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:10,629] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.020 seconds
+[2024-10-27 10:00:46,012] {processor.py:153} INFO - Started process (PID=48187) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:46,017] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:00:46,018] {logging_mixin.py:115} INFO - [2024-10-27 10:00:46,018] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:46,022] {logging_mixin.py:115} INFO - [2024-10-27 10:00:46,022] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:00:46,023] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:00:46,038] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.027 seconds
+[2024-10-27 10:01:06,826] {processor.py:153} INFO - Started process (PID=48358) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:06,826] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:01:06,826] {logging_mixin.py:115} INFO - [2024-10-27 10:01:06,826] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:06,830] {logging_mixin.py:115} INFO - [2024-10-27 10:01:06,830] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:01:06,830] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:06,845] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.020 seconds
+[2024-10-27 10:01:40,390] {processor.py:153} INFO - Started process (PID=48633) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:40,394] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:01:40,395] {logging_mixin.py:115} INFO - [2024-10-27 10:01:40,395] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:40,398] {logging_mixin.py:115} INFO - [2024-10-27 10:01:40,397] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:01:40,398] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:01:40,414] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.025 seconds
+[2024-10-27 10:02:12,344] {processor.py:153} INFO - Started process (PID=48887) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:12,345] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:02:12,345] {logging_mixin.py:115} INFO - [2024-10-27 10:02:12,345] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:12,349] {logging_mixin.py:115} INFO - [2024-10-27 10:02:12,348] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:02:12,349] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:12,367] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.024 seconds
+[2024-10-27 10:02:47,083] {processor.py:153} INFO - Started process (PID=49165) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:47,088] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:02:47,089] {logging_mixin.py:115} INFO - [2024-10-27 10:02:47,089] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:47,092] {logging_mixin.py:115} INFO - [2024-10-27 10:02:47,092] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:02:47,092] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:02:47,107] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.026 seconds
+[2024-10-27 10:03:20,007] {processor.py:153} INFO - Started process (PID=49425) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:20,012] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:03:20,012] {logging_mixin.py:115} INFO - [2024-10-27 10:03:20,012] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:20,016] {logging_mixin.py:115} INFO - [2024-10-27 10:03:20,016] {dagbag.py:320} ERROR - Failed to import: /root/Documentos/airflow/dags/meu_primeiro_dag.py
+Traceback (most recent call last):
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/root/Documentos/airflow/dags/meu_primeiro_dag.py", line 12, in <module>
+    tarefa_1 = EmptyOperator(task_concurrency= 'tarefa_1')
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/root/Documentos/airflow/venv/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2024-10-27 10:03:20,017] {processor.py:653} WARNING - No viable dags retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:20,032] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.026 seconds
+[2024-10-27 10:03:50,290] {processor.py:153} INFO - Started process (PID=49668) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:50,290] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:03:50,290] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,290] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:50,295] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:03:50,344] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,344] {manager.py:508} INFO - Created Permission View: can read on DAG:meu_primeiro_dag
+[2024-10-27 10:03:50,355] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,355] {manager.py:508} INFO - Created Permission View: can delete on DAG:meu_primeiro_dag
+[2024-10-27 10:03:50,365] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,365] {manager.py:508} INFO - Created Permission View: can edit on DAG:meu_primeiro_dag
+[2024-10-27 10:03:50,365] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,365] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:03:50,371] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,371] {dag.py:2398} INFO - Creating ORM DAG for meu_primeiro_dag
+[2024-10-27 10:03:50,377] {logging_mixin.py:115} INFO - [2024-10-27 10:03:50,377] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:03:50,398] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.110 seconds
+[2024-10-27 10:04:23,406] {processor.py:153} INFO - Started process (PID=49932) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:23,407] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:04:23,408] {logging_mixin.py:115} INFO - [2024-10-27 10:04:23,408] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:23,412] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:23,421] {logging_mixin.py:115} INFO - [2024-10-27 10:04:23,420] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:04:23,432] {logging_mixin.py:115} INFO - [2024-10-27 10:04:23,432] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:04:23,446] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.041 seconds
+[2024-10-27 10:04:53,694] {processor.py:153} INFO - Started process (PID=50180) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:53,699] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:04:53,700] {logging_mixin.py:115} INFO - [2024-10-27 10:04:53,699] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:53,703] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:04:53,712] {logging_mixin.py:115} INFO - [2024-10-27 10:04:53,712] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:04:53,723] {logging_mixin.py:115} INFO - [2024-10-27 10:04:53,723] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:04:53,739] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:05:24,693] {processor.py:153} INFO - Started process (PID=50431) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:24,699] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:05:24,699] {logging_mixin.py:115} INFO - [2024-10-27 10:05:24,699] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:24,703] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:24,712] {logging_mixin.py:115} INFO - [2024-10-27 10:05:24,712] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:05:24,723] {logging_mixin.py:115} INFO - [2024-10-27 10:05:24,723] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:05:24,736] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.044 seconds
+[2024-10-27 10:05:59,070] {processor.py:153} INFO - Started process (PID=50711) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:59,072] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:05:59,072] {logging_mixin.py:115} INFO - [2024-10-27 10:05:59,072] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:59,076] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:05:59,085] {logging_mixin.py:115} INFO - [2024-10-27 10:05:59,085] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:05:59,096] {logging_mixin.py:115} INFO - [2024-10-27 10:05:59,096] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:05:59,110] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.041 seconds
+[2024-10-27 10:06:31,637] {processor.py:153} INFO - Started process (PID=50972) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:06:31,637] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:06:31,637] {logging_mixin.py:115} INFO - [2024-10-27 10:06:31,637] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:06:31,641] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:06:31,650] {logging_mixin.py:115} INFO - [2024-10-27 10:06:31,650] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:06:31,662] {logging_mixin.py:115} INFO - [2024-10-27 10:06:31,662] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:06:31,674] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.039 seconds
+[2024-10-27 10:07:02,828] {processor.py:153} INFO - Started process (PID=51220) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:02,835] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:07:02,836] {logging_mixin.py:115} INFO - [2024-10-27 10:07:02,836] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:02,839] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:02,848] {logging_mixin.py:115} INFO - [2024-10-27 10:07:02,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:07:02,859] {logging_mixin.py:115} INFO - [2024-10-27 10:07:02,859] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:07:02,874] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.047 seconds
+[2024-10-27 10:07:33,247] {processor.py:153} INFO - Started process (PID=51463) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:33,249] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:07:33,249] {logging_mixin.py:115} INFO - [2024-10-27 10:07:33,249] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:33,253] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:07:33,262] {logging_mixin.py:115} INFO - [2024-10-27 10:07:33,262] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:07:33,274] {logging_mixin.py:115} INFO - [2024-10-27 10:07:33,274] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:07:33,288] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.042 seconds
+[2024-10-27 10:08:07,114] {processor.py:153} INFO - Started process (PID=51733) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:07,122] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:08:07,123] {logging_mixin.py:115} INFO - [2024-10-27 10:08:07,123] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:07,127] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:07,136] {logging_mixin.py:115} INFO - [2024-10-27 10:08:07,136] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:08:07,148] {logging_mixin.py:115} INFO - [2024-10-27 10:08:07,148] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:08:07,160] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.047 seconds
+[2024-10-27 10:08:37,353] {processor.py:153} INFO - Started process (PID=51973) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:37,353] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:08:37,354] {logging_mixin.py:115} INFO - [2024-10-27 10:08:37,354] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:37,357] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:08:37,366] {logging_mixin.py:115} INFO - [2024-10-27 10:08:37,366] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:08:37,377] {logging_mixin.py:115} INFO - [2024-10-27 10:08:37,377] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:08:37,391] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.040 seconds
+[2024-10-27 10:09:12,677] {processor.py:153} INFO - Started process (PID=52267) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:12,678] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:09:12,679] {logging_mixin.py:115} INFO - [2024-10-27 10:09:12,679] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:12,683] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:12,692] {logging_mixin.py:115} INFO - [2024-10-27 10:09:12,692] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:09:12,704] {logging_mixin.py:115} INFO - [2024-10-27 10:09:12,704] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-26T00:00:00+00:00, run_after=2024-10-27T00:00:00+00:00
+[2024-10-27 10:09:12,717] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.041 seconds
+[2024-10-27 10:09:44,825] {processor.py:153} INFO - Started process (PID=52536) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:44,826] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:09:44,827] {logging_mixin.py:115} INFO - [2024-10-27 10:09:44,827] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:44,831] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:09:44,841] {logging_mixin.py:115} INFO - [2024-10-27 10:09:44,841] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:09:44,854] {logging_mixin.py:115} INFO - [2024-10-27 10:09:44,854] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:09:44,866] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.043 seconds
+[2024-10-27 10:10:16,166] {processor.py:153} INFO - Started process (PID=52789) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:16,171] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:10:16,171] {logging_mixin.py:115} INFO - [2024-10-27 10:10:16,171] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:16,175] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:16,185] {logging_mixin.py:115} INFO - [2024-10-27 10:10:16,185] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:10:16,197] {logging_mixin.py:115} INFO - [2024-10-27 10:10:16,197] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:10:16,210] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.045 seconds
+[2024-10-27 10:10:46,352] {processor.py:153} INFO - Started process (PID=53024) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:46,358] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:10:46,359] {logging_mixin.py:115} INFO - [2024-10-27 10:10:46,359] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:46,362] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:10:46,371] {logging_mixin.py:115} INFO - [2024-10-27 10:10:46,371] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:10:46,383] {logging_mixin.py:115} INFO - [2024-10-27 10:10:46,383] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:10:46,397] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:11:20,430] {processor.py:153} INFO - Started process (PID=53296) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:20,437] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:11:20,438] {logging_mixin.py:115} INFO - [2024-10-27 10:11:20,438] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:20,442] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:20,450] {logging_mixin.py:115} INFO - [2024-10-27 10:11:20,450] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:11:20,462] {logging_mixin.py:115} INFO - [2024-10-27 10:11:20,462] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:11:20,475] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:11:51,800] {processor.py:153} INFO - Started process (PID=53544) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:51,803] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:11:51,803] {logging_mixin.py:115} INFO - [2024-10-27 10:11:51,803] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:51,807] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:11:51,815] {logging_mixin.py:115} INFO - [2024-10-27 10:11:51,815] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:11:51,827] {logging_mixin.py:115} INFO - [2024-10-27 10:11:51,827] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:11:51,841] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.042 seconds
+[2024-10-27 10:12:25,709] {processor.py:153} INFO - Started process (PID=53816) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:25,715] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:12:25,715] {logging_mixin.py:115} INFO - [2024-10-27 10:12:25,715] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:25,719] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:25,728] {logging_mixin.py:115} INFO - [2024-10-27 10:12:25,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:12:25,739] {logging_mixin.py:115} INFO - [2024-10-27 10:12:25,739] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:12:25,752] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.045 seconds
+[2024-10-27 10:12:58,999] {processor.py:153} INFO - Started process (PID=54079) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:59,001] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:12:59,001] {logging_mixin.py:115} INFO - [2024-10-27 10:12:59,001] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:59,005] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:12:59,013] {logging_mixin.py:115} INFO - [2024-10-27 10:12:59,013] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:12:59,026] {logging_mixin.py:115} INFO - [2024-10-27 10:12:59,026] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:12:59,041] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.043 seconds
+[2024-10-27 10:13:30,371] {processor.py:153} INFO - Started process (PID=54332) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:13:30,377] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:13:30,377] {logging_mixin.py:115} INFO - [2024-10-27 10:13:30,377] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:13:30,381] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:13:30,390] {logging_mixin.py:115} INFO - [2024-10-27 10:13:30,390] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:13:30,401] {logging_mixin.py:115} INFO - [2024-10-27 10:13:30,401] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:13:30,418] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.048 seconds
+[2024-10-27 10:14:03,483] {processor.py:153} INFO - Started process (PID=54594) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:03,488] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:14:03,489] {logging_mixin.py:115} INFO - [2024-10-27 10:14:03,489] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:03,493] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:03,501] {logging_mixin.py:115} INFO - [2024-10-27 10:14:03,501] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:14:03,513] {logging_mixin.py:115} INFO - [2024-10-27 10:14:03,513] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:14:03,528] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:14:34,687] {processor.py:153} INFO - Started process (PID=54841) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:34,689] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:14:34,690] {logging_mixin.py:115} INFO - [2024-10-27 10:14:34,690] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:34,694] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:14:34,703] {logging_mixin.py:115} INFO - [2024-10-27 10:14:34,703] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:14:34,714] {logging_mixin.py:115} INFO - [2024-10-27 10:14:34,714] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:14:34,732] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:15:05,986] {processor.py:153} INFO - Started process (PID=55088) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:05,990] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:15:05,990] {logging_mixin.py:115} INFO - [2024-10-27 10:15:05,990] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:05,994] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:06,003] {logging_mixin.py:115} INFO - [2024-10-27 10:15:06,003] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:15:06,014] {logging_mixin.py:115} INFO - [2024-10-27 10:15:06,014] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:15:06,034] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.050 seconds
+[2024-10-27 10:15:37,319] {processor.py:153} INFO - Started process (PID=55339) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:37,322] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:15:37,323] {logging_mixin.py:115} INFO - [2024-10-27 10:15:37,323] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:37,327] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:15:37,335] {logging_mixin.py:115} INFO - [2024-10-27 10:15:37,335] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:15:37,347] {logging_mixin.py:115} INFO - [2024-10-27 10:15:37,347] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:15:37,362] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.044 seconds
+[2024-10-27 10:16:09,562] {processor.py:153} INFO - Started process (PID=55598) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:09,568] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:16:09,568] {logging_mixin.py:115} INFO - [2024-10-27 10:16:09,568] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:09,572] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:09,581] {logging_mixin.py:115} INFO - [2024-10-27 10:16:09,581] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:16:09,592] {logging_mixin.py:115} INFO - [2024-10-27 10:16:09,592] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:16:09,608] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.047 seconds
+[2024-10-27 10:16:42,662] {processor.py:153} INFO - Started process (PID=55861) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:42,665] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:16:42,666] {logging_mixin.py:115} INFO - [2024-10-27 10:16:42,665] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:42,669] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:16:42,678] {logging_mixin.py:115} INFO - [2024-10-27 10:16:42,678] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:16:42,689] {logging_mixin.py:115} INFO - [2024-10-27 10:16:42,689] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:16:42,706] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:17:13,973] {processor.py:153} INFO - Started process (PID=56112) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:13,979] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:17:13,980] {logging_mixin.py:115} INFO - [2024-10-27 10:17:13,980] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:13,983] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:13,992] {logging_mixin.py:115} INFO - [2024-10-27 10:17:13,992] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:17:14,003] {logging_mixin.py:115} INFO - [2024-10-27 10:17:14,003] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:17:14,020] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.048 seconds
+[2024-10-27 10:17:47,075] {processor.py:153} INFO - Started process (PID=56373) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:47,078] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:17:47,078] {logging_mixin.py:115} INFO - [2024-10-27 10:17:47,078] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:47,082] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:17:47,091] {logging_mixin.py:115} INFO - [2024-10-27 10:17:47,091] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:17:47,103] {logging_mixin.py:115} INFO - [2024-10-27 10:17:47,103] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:17:47,120] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:18:19,479] {processor.py:153} INFO - Started process (PID=56633) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:19,482] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:18:19,483] {logging_mixin.py:115} INFO - [2024-10-27 10:18:19,483] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:19,486] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:19,495] {logging_mixin.py:115} INFO - [2024-10-27 10:18:19,495] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:18:19,506] {logging_mixin.py:115} INFO - [2024-10-27 10:18:19,506] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:18:19,523] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:18:51,756] {processor.py:153} INFO - Started process (PID=56892) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:51,760] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:18:51,761] {logging_mixin.py:115} INFO - [2024-10-27 10:18:51,761] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:51,764] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:18:51,773] {logging_mixin.py:115} INFO - [2024-10-27 10:18:51,773] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:18:51,784] {logging_mixin.py:115} INFO - [2024-10-27 10:18:51,784] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:18:51,801] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.047 seconds
+[2024-10-27 10:19:26,096] {processor.py:153} INFO - Started process (PID=57165) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:26,106] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:19:26,107] {logging_mixin.py:115} INFO - [2024-10-27 10:19:26,107] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:26,111] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:26,119] {logging_mixin.py:115} INFO - [2024-10-27 10:19:26,119] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:19:26,131] {logging_mixin.py:115} INFO - [2024-10-27 10:19:26,131] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:19:26,148] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.053 seconds
+[2024-10-27 10:19:58,093] {processor.py:153} INFO - Started process (PID=57416) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:58,098] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:19:58,098] {logging_mixin.py:115} INFO - [2024-10-27 10:19:58,098] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:58,102] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:19:58,111] {logging_mixin.py:115} INFO - [2024-10-27 10:19:58,111] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:19:58,122] {logging_mixin.py:115} INFO - [2024-10-27 10:19:58,122] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:19:58,137] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.046 seconds
+[2024-10-27 10:34:19,507] {processor.py:153} INFO - Started process (PID=57665) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:19,508] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:34:19,509] {logging_mixin.py:115} INFO - [2024-10-27 10:34:19,509] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:19,517] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:19,534] {logging_mixin.py:115} INFO - [2024-10-27 10:34:19,534] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:34:19,552] {logging_mixin.py:115} INFO - [2024-10-27 10:34:19,552] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:34:19,576] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.071 seconds
+[2024-10-27 10:34:51,637] {processor.py:153} INFO - Started process (PID=57862) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:51,642] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:34:51,643] {logging_mixin.py:115} INFO - [2024-10-27 10:34:51,643] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:51,646] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:34:51,656] {logging_mixin.py:115} INFO - [2024-10-27 10:34:51,656] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:34:51,666] {logging_mixin.py:115} INFO - [2024-10-27 10:34:51,666] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:34:51,680] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.044 seconds
+[2024-10-27 10:35:21,932] {processor.py:153} INFO - Started process (PID=58029) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:21,937] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:35:21,937] {logging_mixin.py:115} INFO - [2024-10-27 10:35:21,937] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:21,941] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:21,950] {logging_mixin.py:115} INFO - [2024-10-27 10:35:21,950] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:35:21,959] {logging_mixin.py:115} INFO - [2024-10-27 10:35:21,959] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:35:21,970] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.040 seconds
+[2024-10-27 10:35:52,312] {processor.py:153} INFO - Started process (PID=58191) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:52,319] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:35:52,320] {logging_mixin.py:115} INFO - [2024-10-27 10:35:52,320] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:52,324] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:35:52,336] {logging_mixin.py:115} INFO - [2024-10-27 10:35:52,336] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:35:52,349] {logging_mixin.py:115} INFO - [2024-10-27 10:35:52,348] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:35:52,361] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.050 seconds
+[2024-10-27 10:36:24,974] {processor.py:153} INFO - Started process (PID=58372) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:24,975] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:36:24,976] {logging_mixin.py:115} INFO - [2024-10-27 10:36:24,976] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:24,980] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:24,990] {logging_mixin.py:115} INFO - [2024-10-27 10:36:24,990] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:36:25,000] {logging_mixin.py:115} INFO - [2024-10-27 10:36:25,000] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:36:25,017] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.045 seconds
+[2024-10-27 10:36:57,555] {processor.py:153} INFO - Started process (PID=58545) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:57,556] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:36:57,556] {logging_mixin.py:115} INFO - [2024-10-27 10:36:57,556] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:57,560] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:36:57,569] {logging_mixin.py:115} INFO - [2024-10-27 10:36:57,569] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:36:57,579] {logging_mixin.py:115} INFO - [2024-10-27 10:36:57,579] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:36:57,593] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.039 seconds
+[2024-10-27 10:37:30,643] {processor.py:153} INFO - Started process (PID=58726) to work on /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:37:30,644] {processor.py:641} INFO - Processing file /root/Documentos/airflow/dags/meu_primeiro_dag.py for tasks to queue
+[2024-10-27 10:37:30,645] {logging_mixin.py:115} INFO - [2024-10-27 10:37:30,645] {dagbag.py:507} INFO - Filling up the DagBag from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:37:30,648] {processor.py:651} INFO - DAG(s) dict_keys(['meu_primeiro_dag']) retrieved from /root/Documentos/airflow/dags/meu_primeiro_dag.py
+[2024-10-27 10:37:30,658] {logging_mixin.py:115} INFO - [2024-10-27 10:37:30,658] {dag.py:2379} INFO - Sync 1 DAGs
+[2024-10-27 10:37:30,667] {logging_mixin.py:115} INFO - [2024-10-27 10:37:30,667] {dag.py:2927} INFO - Setting next_dagrun for meu_primeiro_dag to 2024-10-27T00:00:00+00:00, run_after=2024-10-28T00:00:00+00:00
+[2024-10-27 10:37:30,681] {processor.py:161} INFO - Processing /root/Documentos/airflow/dags/meu_primeiro_dag.py took 0.039 seconds
